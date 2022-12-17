@@ -1,0 +1,37 @@
+* {
+  background-color: rgb(237, 138, 252);
+}
+
+h1 {
+  position: fixed;
+  left: 300px;
+}
+.form {
+  border: solid rgb(239, 197, 197) 9px;
+  background-color: antiquewhite;
+  height: 100px;
+  position: fixed;
+  left: 450px;
+  top: 200px;
+  width: 340px;
+  padding: 20px;
+}
+
+.botaoconcatena {
+  background-color: rgb(233, 112, 192);
+  border-radius: 50px;
+  cursor: pointer;
+  height: 30px;
+  left: 730px;
+  top: 290px;
+  position: fixed;
+}
+
+.botaocancelar {
+  background-color: rgb(255, 2, 2);
+  border-radius: 50px;
+  cursor: pointer;
+  height: 30px;
+  top: 290px;
+  position: fixed;
+}

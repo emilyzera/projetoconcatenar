@@ -1,0 +1,25 @@
+<html>
+  <body onload="myFunction()">
+    <link rel="stylesheet" href="styles.css" />
+    <h1>Programa de Boas vinda de concatenação de campos!</h1>
+
+    <form class="form" name="Formconcatena" action="" method="post">
+      Digite seu nome ...........: <input type="text" name="f_nome" /><br />
+      digite seu sobrenome ...: <input type="text" name="f_sobrenome" /><br />
+      <input
+        class="botaoconcatena"
+        type="button"
+        name="btn_concatena"
+        value="cancatenar"
+        onclick="concatena()"
+      />
+      <input
+        type="reset"
+        class="botaocancelar"
+        name="btn_cancela"
+        value="cancelar"
+      />
+    </form>
+    <script src="./index.js"></script>
+  </body>
+</html>
